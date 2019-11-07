@@ -22,7 +22,13 @@ end
 def monopoly_with_third_tier
     hash = {
   :railroads => 
-  {:pieces=>4, :rent_in_dollars=>0,
+  {:pieces=>4, :rent_in_dollars=>
+  {
+    :one_piece_owned=>0,
+    :two_pieces_owned=>0,
+    :three_pieces_owned=>0,
+    :four_pieces_owned=>0,
+  
   }
   }
   
