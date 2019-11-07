@@ -25,10 +25,10 @@ def monopoly_with_third_tier
   {:pieces=>4, 
   :names=> 
     {
-      :reading_railroad=>,
-      :pennsylvania_railroad=>,
-      :b_and_o_railroad=>,
-      :shortline=>,
+      :reading_railroad=>0,
+      :pennsylvania_railroad=>0,
+      :b_and_o_railroad=>0,
+      :shortline=>0,
     }
   :rent_in_dollars=> 
   {
