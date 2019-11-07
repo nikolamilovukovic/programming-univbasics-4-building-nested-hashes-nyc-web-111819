@@ -23,6 +23,7 @@ def monopoly_with_third_tier
     hash = {
   :railroads => 
   {:pieces=>4, 
+  :names=> "something"
   :rent_in_dollars=> 
   {
     :one_piece_owned=>0,
@@ -31,7 +32,7 @@ def monopoly_with_third_tier
     :four_pieces_owned=>0,
   }
     
-  :names=> "something"
+  
     
   }
   }
